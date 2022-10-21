@@ -6,7 +6,7 @@ const app = express();  //initsierer express som "app"
 
 app.use (express.json()); //ber app/express til å bli brukt
 
-const apiKey = '2fbd93c333b02eccf29b8a2771311588'               //bruker Scraper for å finne elementer på nettsider
+const apiKey = ''               //bruker Scraper for å finne elementer på nettsider
 const baseUrl = `http://api.scraperapi.com?api_key=${apiKey}&autoparse=true`;      //baseUrl til ScraperApi
 //bruker "apiKey" og "baseurl" slik at app fungerer, ved deployment bruk din egen ApiKey.
 
